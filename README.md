@@ -16,7 +16,7 @@ The template project comes with both Maven and Gradle build scripts. To run the 
 
 ## Use Gradle
 
-For GRADLE, pen a command window and run:
+For GRADLE, pen a command wgit indow and run:
 
   ./gradlew test 
 
