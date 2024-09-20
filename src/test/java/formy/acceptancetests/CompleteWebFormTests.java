@@ -30,6 +30,32 @@ public class CompleteWebFormTests extends UIInteractions {
 
         waitForTextToAppear("The form was successfully submitted!");
     }
+    @Test
+    public void shouldEnterWithoutAJobWithNoExperience(){
+
+        fillingInWebForm.forANewCustomer("Billie",
+                "Smith",
+                " ",
+                "High School",
+                "Female",
+                0);
+
+        waitForTextToAppear("The form was successfully submitted!");
+    }
+    @Test
+    public void shouldEnterWithALongName(){
+
+        fillingInWebForm.forANewCustomer("Hubert-Giovanni-Leonardo",
+                "Wolfeschlegelsteinhausenbergerorff",
+                "Teacher",
+                "Grad School",
+                "Male",
+                11);
+
+        waitForTextToAppear("The form was successfully submitted!");
+    }
 
 }
+
+
 
