@@ -12,11 +12,10 @@ Or simply [download a zip](https://github.com/serenity-bdd/serenity-junit-starte
 
 The template project comes with both Maven and Gradle build scripts. To run the tests with Maven, open a command window and run:
 
-  ./mvnw clean verify
 
 ## Use Gradle
 
-For GRADLE, pen a command wgit indow and run:
+For GRADLE, pen a command window and run:
 
   ./gradlew test 
 
